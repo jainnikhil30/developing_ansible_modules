@@ -15,7 +15,7 @@ pip install ansible
 Initialize a new collection with the namespace devconf and collection name ansible_workshop. This command sets up the structure for your collection:
 
 ```bash
-ansible-galaxy collection init devconf.ansible_workshop
+~/.local/bin/ansible-galaxy collection init devconf.ansible_workshop
 ```
 
 ## 3. Navigate to the Collection Directory
@@ -55,7 +55,7 @@ From here, you can navigate to [opensourceops/developing_ansible_modules](https:
 ## 8. Copy the Collection to the Ansible Directory
 Finally, copy your collection to the Ansible collections directory:
 ```bash
-cd .ansible
+cd ~/.ansible
 mkdir -p collections/ansible_collections
 cd collections/ansible_collections
 cp  -r ~/devconf .
