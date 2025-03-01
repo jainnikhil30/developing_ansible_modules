@@ -50,7 +50,7 @@ vim mitwpustudent.py
 Edit the mitwpustudent.py file to implement your module’s functionality.
 
 ## 7. Copy Code
-From here, you can navigate to https://github.com/opensourceops/developing_ansible_modules to find the custom module code.
+From here, you can navigate to [opensourceops/developing_ansible_modules](https://github.com/opensourceops/developing_ansible_modules) to find the custom module code.
 
 ## 8. Copy the Collection to the Ansible Directory
 Finally, copy your collection to the Ansible collections directory:
