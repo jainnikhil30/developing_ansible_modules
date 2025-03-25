@@ -15,14 +15,14 @@ pip install ansible
 Initialize a new collection with the namespace devconf and collection name ansible_workshop. This command sets up the structure for your collection:
 
 ```bash
-~/.local/bin/ansible-galaxy collection init devconf.ansible_workshop
+~/.local/bin/ansible-galaxy collection init perfconf.ansible_workshop
 ```
 
 ## 3. Navigate to the Collection Directory
 Change to the newly created collection directory:
 
 ```bash
-cd devconf/ansible_workshop/
+cd perfconf/ansible_workshop/
 ```
 
 ## 4. Access the Plugins Directory
@@ -44,7 +44,7 @@ mkdir modules
 Move into the modules directory and create a new Python file for your module:
 ```bash
 cd modules
-cp ../../../../mitwpustudent.py
+cp ../../../../mitwpustudent.py .
 ```
 
 Edit the mitwpustudent.py file to implement your module’s functionality.
@@ -58,7 +58,7 @@ Finally, copy your collection to the Ansible collections directory:
 cd ~/.ansible
 mkdir -p collections/ansible_collections
 cd collections/ansible_collections
-cp  -r ~/devconf .
+cp  -r ~/perfconf .
 ```
 
 Now, let's create a playbook to use the module.
