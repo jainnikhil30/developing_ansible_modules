@@ -44,21 +44,16 @@ mkdir modules
 Move into the modules directory and create a new Python file for your module:
 ```bash
 cd modules
-cp ../../../../userdata.py .
+vi userdata.py
 ```
 
-Edit the mitwpustudent.py file to implement your module’s functionality.
-
-## 7. Copy Code
-From here, you can navigate to [opensourceops/developing_ansible_modules](https://github.com/opensourceops/developing_ansible_modules) to find the custom module code.
-
-## 8. Copy the Collection to the Ansible Directory
+## 7. Copy the Collection to the Ansible Directory
 Finally, copy your collection to the Ansible collections directory:
 ```bash
 cd ~/.ansible
 mkdir -p collections/ansible_collections
 cd collections/ansible_collections
-cp  -r ~/perfconf .
+cp  -r ~/cloudshell_open/developing_ansible_modules/perfconf .
 ```
 
 Now, let's create a playbook to use the module.
