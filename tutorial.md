@@ -44,7 +44,7 @@ mkdir modules
 Move into the modules directory and create a new Python file for your module:
 ```bash
 cd modules
-cp ../../../../mitwpustudent.py .
+cp ../../../../userdata.py .
 ```
 
 Edit the mitwpustudent.py file to implement your module’s functionality.
