@@ -7,4 +7,4 @@
 - Follow the tutorial on the right side.
 
 ## Click Here
-[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_image=gcr.io/cloudshell-images/cloudshell&cloudshell_git_repo=https://github.com/opensourceops/developing_ansible_modules.git&cloudshell_tutorial=tutorial.md&shellonly=true)
+[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_image=gcr.io/cloudshell-images/cloudshell&cloudshell_git_repo=https://github.com/jainnikhil30/developing_ansible_modules.git&cloudshell_tutorial=tutorial.md&shellonly=true)
